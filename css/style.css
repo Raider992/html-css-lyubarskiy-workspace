@@ -1,0 +1,131 @@
+mark {
+    text-decoration: none;
+    background-color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+header {
+    width: 1280px;
+    height: 323px;
+    background-color: #445162;
+    margin: 0 auto;
+}
+
+.pr_name {
+    height: 323px;
+    float: left;
+    margin: 0px 0px 0px 50px;
+    padding: 0;
+
+}
+
+.pr_name h1 {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+.pr_name ul {
+    list-style-image: url(../img/check%20icon.png);
+    margin: 0px 0px 55px 0px;
+}
+
+.pr_name ul li {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+}
+
+header .white {
+    width: 469px;
+    height: 214px;
+    background-color: white;
+    float: right;
+    margin: 59px 50px 0px 0px;
+}
+
+
+.about {
+    height: 345px;
+    width: 1280px;
+    margin: 0 auto;
+
+}
+
+.about article {
+    float: left;
+    margin: 50px 0px 0px 50px;
+}
+
+.about article h3 {
+    margin: 0 0 0 0;
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.about article p {
+    height: 64px;
+    width: 649px;
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.about .black {
+    float: right;
+    width: 430px;
+    height: 245px;
+    background-color: #445161;
+    margin: 50px 50px 0px 0px;
+}
+
+.dignity {
+    height: 417px;
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+    padding-top: 1px;
+}
+
+.dignity h3 {
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    
+}
+
+
+.dignity ul {
+    list-style: url(../img/plus%20icon.png) outside;
+    padding-left: 90px;
+}
+
+.dignity ul li {    
+    float: left;
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 526px;
+    height: 63px;
+    padding: 0px 50px 50px 0px;
+}
+
