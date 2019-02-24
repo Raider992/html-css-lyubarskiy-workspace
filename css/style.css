@@ -4,6 +4,7 @@ mark {
     font-family: inherit;
     font-weight: inherit;
 }
+
 header {
     width: 1280px;
     height: 323px;
@@ -12,11 +13,9 @@ header {
 }
 
 .pr_name {
-    height: 323px;
+    height: 223px;
     float: left;
-    margin: 0px 0px 0px 50px;
-    padding: 0;
-
+    margin: 50px 0 50px 50px;
 }
 
 .pr_name h1 {
@@ -30,7 +29,7 @@ header {
 
 .pr_name ul {
     list-style-image: url(../img/check%20icon.png);
-    margin: 0px 0px 55px 0px;
+    padding: 30px 0 0 50px;
 }
 
 .pr_name ul li {
@@ -45,10 +44,10 @@ header {
 
 header .white {
     width: 469px;
-    height: 214px;
+    height: 223px;
     background-color: white;
     float: right;
-    margin: 59px 50px 0px 0px;
+    margin: 50px 50px 0 0;
 }
 
 
@@ -71,6 +70,8 @@ header .white {
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
+    text-align: left;
+    padding: 0 0 10px 0;
 }
 
 .about article p {
@@ -82,6 +83,7 @@ header .white {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    padding: 20px 0 0 0;
 }
 
 .about .black {
@@ -107,16 +109,26 @@ header .white {
     font-weight: 400;
     line-height: 36px;
     text-align: center;
-    
+    margin: 50px 0 0 0;
 }
 
 
 .dignity ul {
-    list-style: url(../img/plus%20icon.png) outside;
-    padding-left: 90px;
+    list-style-type: none;
+    padding: 30px 0 0 50px;
 }
 
-.dignity ul li {    
+.dignity ul li:before {
+    content: url(../img/plus%20icon.png);
+    float: left;
+}
+
+.dignity ul p {
+    margin-left: 36px;
+    margin-top: -5px
+}
+
+.dignity ul li {
     float: left;
     font-family: Arial;
     color: #333333;
@@ -126,6 +138,140 @@ header .white {
     text-align: left;
     width: 526px;
     height: 63px;
-    padding: 0px 50px 50px 0px;
+    padding: 0px 70px 50px 0px;
 }
 
+.scrinshots {
+    margin: 0 auto;
+    width: 1280px;
+    height: 387px;
+    padding: 50px;
+}
+
+.scrinshots figcaption {
+    float: right;
+}
+
+.scrinshots h3 {
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.scrinshots ul {
+    list-style-type: none;
+}
+
+
+
+.reviews {
+    width: 1280px;
+    height: 424px;
+    background-color: #f5f5f5;
+}
+
+.buyitnow {
+    width: 1280px;
+    height: 656px;
+}
+
+.buyitnow h3 {
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    padding: 50px 0 0 0;
+}
+
+.buyitnow .price {
+    width: 294px;
+    height: 71px;
+    background-color: white;
+    position: absolute;
+}
+
+.buyitnow .price p {
+    font-family: Arial;
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 18px 107px;
+}
+
+.buyitnow .standart {
+    width: 296px;
+    height: 302px;
+    background-color: #425062;
+    position: relative;
+    border: 2px solid #425062;
+    border-radius: 5px;
+}
+
+.buyitnow .standart h5 {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 17px 103px;
+}
+
+.buyitnow .premium {
+    width: 296px;
+    height: 400px;
+    background-color: #425062;
+    position: relative;
+    border: 2px solid #425062;
+    border-radius: 5px;
+}
+
+.buyitnow .premium h5 {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 17px 103px;
+}
+
+.buyitnow .lux {
+    width: 296px;
+    height: 495px;
+    background-color: #425062;
+    position: relative;
+    border: 2px solid #425062;
+    border-radius: 5px;
+}
+
+.buyitnow .lux h5 {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin: 17px 103px;
+}
+
+.buyitnow ol {
+    list-style-type: decimal;
+    margin: 100px 0 0 40px;
+}
+
+.buyitnow li {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
