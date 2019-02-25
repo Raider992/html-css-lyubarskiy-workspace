@@ -176,6 +176,10 @@ header .white {
 .buyitnow {
     width: 1280px;
     height: 656px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .buyitnow h3 {
@@ -186,6 +190,7 @@ header .white {
     line-height: 36px;
     text-align: center;
     padding: 50px 0 0 0;
+    align-self: flex-start;
 }
 
 .buyitnow .price {
@@ -276,6 +281,15 @@ header .white {
     text-align: left;
 }
 
-.buyitnow input {
-    
+.buyitnow button {
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 15px;
+    font-family: Arial;
+    color: #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
 }
