@@ -20,7 +20,10 @@
                     <li>Associate this page with payment system</li>
                 </ul>
             </div>
-            <div class="white"></div>
+            <!-- <div class="white"></div> -->
+            <div class="video1">
+                <video src="video/Sunset%20-%2010737.mp4" height="223" width="469" autoplay="autoplay" loop="loop" preload="auto" controls></video>
+            </div>
         </header>
         <main>
             <section class="about">
@@ -113,10 +116,12 @@
             </section>
             <section class="reviews"></section>
             <section class="buyitnow">
-               <h3>Buy It Now</h3>
+                <h3>Buy It Now</h3>
                 <div class="standart">
                     <h5>Standart</h5>
-                    <div class="price"><p>$100</p></div>
+                    <div class="price">
+                        <p>$100</p>
+                    </div>
                     <ol>
                         <li>
                             Porro officia cumque sint deleniti;
@@ -135,7 +140,9 @@
                 </div>
                 <div class="premium">
                     <h5>Premium</h5>
-                    <div class="price"><p>$150</p></div>
+                    <div class="price">
+                        <p>$150</p>
+                    </div>
                     <ol>
                         <li>
                             Porro officia cumque sint deleniti
@@ -166,7 +173,9 @@
                 </div>
                 <div class="lux">
                     <h5>Lux</h5>
-                    <div class="price"><p>$200</p></div>
+                    <div class="price">
+                        <p>$200</p>
+                    </div>
                     <ol>
                         <li>
                             Porro officia cumque sint deleniti;</li>
@@ -206,6 +215,32 @@
                     </ol>
                     <button>Buy</button>
                 </div>
+            </section>
+            <section class="contacts">
+                <form action="#">
+                    <fieldset>
+                        <legend>Contacts</legend>
+                        <input type="text" id="c_name" placeholder="Your name:" required pattern="\S+[А-яа-я]">
+                        <br>
+                        <input type="email" id="c_mail" placeholder="Your email" required pattern="\S+@[a-z]+.[a-z]+">
+                        <br>
+                        <textarea placeholder="Your message" rows=3></textarea>
+                        <br>
+                        <input type="submit" value="Send">
+                        <div class="right_col">
+                            <label for="via">Contact us via</label>
+                            <select id="via">
+                                <option value="phone">Phone</option>
+                                <option value="skype">Skype</option>
+                                <option value="ICQ">ICQ</option>
+                                <option value="E-mail">E-mail</option>
+                            </select>
+                            <br>
+                            <p>Or find us in </p>
+                            <img src="img/social%20buttons.png" alt="123">
+                        </div>
+                    </fieldset>
+                </form>
             </section>
         </main>
         <footer></footer>

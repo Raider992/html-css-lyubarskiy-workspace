@@ -42,14 +42,27 @@ header {
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
 }
 
-header .white {
+/*header .white {
     width: 469px;
     height: 223px;
     background-color: white;
     float: right;
     margin: 50px 50px 0 0;
+}*/
+
+header .video1 {
+    position: relative;
+    width: 469px;
+    height: 223px;
+    float: right;
+    margin: 50px 50px 0 0;
 }
 
+header.video1 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
 .about {
     height: 345px;
@@ -171,6 +184,7 @@ header .white {
     width: 1280px;
     height: 424px;
     background-color: #f5f5f5;
+    margin: 0 auto;
 }
 
 .buyitnow {
@@ -179,6 +193,7 @@ header .white {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin: 0 auto;
 }
 
 .buyitnow h3 {
@@ -291,4 +306,115 @@ header .white {
     font-weight: 700;
     line-height: 18px;
     text-align: center;
+}
+
+.contacts {
+    width: 1280px;
+    height: 509px;
+    background-color: #445162;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.contacts fieldset {
+    margin: 0 auto;
+    width: 900px;
+    height: 409px;
+    border: 2px solid white;
+    position: relative;
+}
+
+.contacts fieldset legend {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+}
+
+.contacts fieldset input {
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    margin: 20px 0 0 50px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.contacts fieldset input:placeholder {
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.contacts fieldset textarea {
+    margin: 20px 0 0 50px;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.contacts fieldset textarea:placeholder {
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.contacts fieldset input[type="submit"] {
+    width: 140px;
+    height: 40px;
+    margin-left: 240px;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.contacts fieldset .right_col {
+    float: right;
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    right: 50px;
+    bottom: 100px;
+}
+
+.contacts fieldset .right_col select {
+    margin: 20px;
+}
+
+.contacts fieldset .right_col label {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.contacts fieldset .right_col p {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 20px;
 }
