@@ -105,6 +105,9 @@ header.video1 video {
     height: 245px;
     background-color: #445161;
     margin: 50px 50px 0px 0px;
+    background-image: url(../img/%D0%91%D0%B5%D0%B7%20%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.jpg);
+    background-repeat: repeat-x;
+    background-position: center right;
 }
 
 .dignity {
@@ -113,6 +116,7 @@ header.video1 video {
     margin: 0 auto;
     background-color: #f5f5f5;
     padding-top: 1px;
+    padding-bottom: 50px;
 }
 
 .dignity h3 {
@@ -137,6 +141,7 @@ header.video1 video {
 }
 
 .dignity ul p {
+    width: 530px;
     margin-left: 36px;
     margin-top: -5px
 }
@@ -151,19 +156,46 @@ header.video1 video {
     text-align: left;
     width: 526px;
     height: 63px;
-    padding: 0px 70px 50px 0px;
+    padding: 0px 60px 50px 0px;
 }
 
 .scrinshots {
     margin: 0 auto;
     width: 1280px;
-    height: 387px;
+    height: 400px;
     padding: 50px;
 }
 
-.scrinshots figcaption {
-    float: right;
+.scrinshots figure {
+    width: 600px;
+    float: left;
+    margin: 0 0 30px 0;
 }
+
+.scrinshots figure p {
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0 15px 0 0;
+}
+
+.scrinshots figure .scrinshot {
+    float: left;
+}
+
+.scrinshots figure h6 {
+    font-family: Arial;
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.scrinshots figcaption {}
 
 .scrinshots h3 {
     font-family: Arial;
@@ -172,6 +204,7 @@ header.video1 video {
     font-weight: 400;
     line-height: 36px;
     text-align: center;
+    margin: 0 0 35px 0;
 }
 
 .scrinshots ul {
@@ -185,6 +218,59 @@ header.video1 video {
     height: 424px;
     background-color: #f5f5f5;
     margin: 0 auto;
+    padding: 50px;
+}
+
+.reviews h3 {
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 0 35px 0;
+}
+
+.reviews figure {
+    float: left;
+    width: 600px;
+}
+
+.reviews figure .image {
+    width: 75px;
+}
+
+.reviews figure figcaption {
+    width: 483px;
+    height: 121px;
+    background-image: url(../img/bg%20review.jpg);
+    background-size: 483px;
+    background-repeat: no-repeat;
+    background-position: right top;    
+}
+
+
+.reviews figure .image {
+    float: left;
+    margin: 10px 10px 0 0;
+}
+
+.reviews .review {
+    font-family: Arial;
+    color: #333333;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+    text-align: left;
+}
+
+.reviews h6 {
+    font-family: Arial;
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
 }
 
 .buyitnow {
@@ -194,6 +280,14 @@ header.video1 video {
     justify-content: space-between;
     align-items: flex-end;
     margin: 0 auto;
+    padding: 0 0 50px 0;
+    flex-wrap: wrap;
+}
+
+.buyitnow .b_header {
+    flex-direction: column;
+    align-self: stretch;
+    margin: 0 40% 0 40%;
 }
 
 .buyitnow h3 {
@@ -204,7 +298,6 @@ header.video1 video {
     line-height: 36px;
     text-align: center;
     padding: 50px 0 0 0;
-    align-self: flex-start;
 }
 
 .buyitnow .price {
@@ -231,6 +324,7 @@ header.video1 video {
     position: relative;
     border: 2px solid #425062;
     border-radius: 5px;
+    margin: 0 0 0 50px;
 }
 
 .buyitnow .standart h5 {
@@ -269,6 +363,7 @@ header.video1 video {
     position: relative;
     border: 2px solid #425062;
     border-radius: 5px;
+    margin: 0 50px 0 0;
 }
 
 .buyitnow .lux h5 {
@@ -397,7 +492,8 @@ header.video1 video {
 }
 
 .contacts fieldset .right_col select {
-    margin: 20px;
+    margin: 20px 20px 2px 20px;
+    width: 100px;
 }
 
 .contacts fieldset .right_col label {
@@ -417,4 +513,32 @@ header.video1 video {
     line-height: 20px;
     text-align: left;
     margin-bottom: 20px;
+}
+
+.container {
+    width: 1280px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.footer_clr{
+    height: 30px;
+}
+
+footer {
+    width: 1280px;
+    height: 30px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+    margin-top: -30px;
+}
+
+footer p {
+    font-family: Arial;
+    color: #445162;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    text-align: center;
 }
