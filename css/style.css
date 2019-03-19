@@ -234,25 +234,32 @@ header.video1 video {
 .reviews figure {
     float: left;
     width: 600px;
+    /*border: 1px dashed blue;*/
+    margin: 25px 0 0 0;
 }
 
 .reviews figure .image {
     width: 75px;
+    /*border: 1px solid red;*/
+    float: left;
 }
 
 .reviews figure figcaption {
     width: 483px;
     height: 121px;
-    background-image: url(../img/bg%20review.jpg);
+    background-image: url(../img/bg%20review.png);
     background-size: 483px;
     background-repeat: no-repeat;
-    background-position: right top;    
+    background-position: right top;
+    /*border: 1px solid green;*/
+    float: right;
+    margin-right: 28px;
 }
 
 
 .reviews figure .image {
     float: left;
-    margin: 10px 10px 0 0;
+    margin: 0px 0px 0 10px;
 }
 
 .reviews .review {
@@ -262,6 +269,7 @@ header.video1 video {
     font-style: italic;
     line-height: 18px;
     text-align: left;
+    padding: 15px 0 0 25px;
 }
 
 .reviews h6 {
@@ -271,13 +279,14 @@ header.video1 video {
     font-weight: 400;
     line-height: 18px;
     text-align: left;
+    padding: 5px 0 0 25px;
 }
 
 .buyitnow {
     width: 1280px;
     height: 656px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
     margin: 0 auto;
     padding: 0 0 50px 0;
@@ -503,6 +512,10 @@ header.video1 video {
     font-weight: 400;
     line-height: 20px;
     text-align: left;
+}
+
+.contacts fieldset i {
+    font-size: 40px;
 }
 
 .contacts fieldset .right_col p {
